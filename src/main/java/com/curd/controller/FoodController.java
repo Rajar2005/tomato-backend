@@ -10,7 +10,10 @@ import com.curd.service.FoodService;
 
 @RestController
 @RequestMapping("/api/foods")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = {
+    "http://localhost:5173",
+    "https://tomatowebsites.netlify.app"
+})
 public class FoodController {
 
     @Autowired
