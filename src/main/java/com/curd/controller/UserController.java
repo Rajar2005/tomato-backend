@@ -10,7 +10,7 @@
 	
 	@RestController
 	@RequestMapping("/api/users")
-	@CrossOrigin(origins = "http://localhost:5173")
+	@CrossOrigin(origins = "https://tomatowebsites.netlify.app")
 	public class UserController {
 	
 		@Autowired
